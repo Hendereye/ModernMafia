@@ -1,0 +1,70 @@
+body{margin: 0px;}
+.textbox{-moz-border-radius-topleft:1px;-moz-border-radius-bottomright:2px;background-color: #414141; border-bottom: 1px solid #626262; border-left: 1px solid #040404; border-right: 1px solid #626262; border-top: 1px solid #040404; color: Silver; font-family: verdana; font-size: 10px; }
+.mainmenutable{border-style: solid; border-bottom: 1px solid #626262; border-left: 1px solid #040404; border-right: 1px solid #626262; border-top: 1px solid #040404;}
+a:hover {color: white; text-decoration: none;font: 10px Verdana;}
+a {color: silver; text-decoration: none;font: 10px Verdana;}
+.lefts{font-family: verdana;font-size: 10px; background: #222222;}
+.leftsmain{font-family: verdana;font-size: 10px; background: gray; color:white;}
+.online{font-family: verdana;font-size: 10px;}
+
+.rights{font-family: verdana;font-size: 10px; color:silver;}
+.rightsmain{font-family: verdana;font-size: 10px; background: #222222;}
+
+blockquote {font-family: vixar, tahoma, verdana, arial, helvetica, sans-serif;font-style: italic;color:#7e96ac;}
+.topleft{width:8; height:22; background-image: url(/more/topleft.png);}
+.topright{width:8; height:22; background-image: url(/more/topright.png);}
+.top{width:200; height:22; background-image: url(/more/top.png);}
+.left{width:8; background-image: url(/more/leftb.png);}
+.right{width:8; background-image: url(/more/rightb.png);}
+.main{width:200; background-image: url(/more/crossbg.png);}
+.bottomleft{width:8; height:9; background-image: url(/more/bottomleft.png);}
+.bottomright{width:8; height:9; background-image: url(/more/bottomright.png);}
+.bottom{width:200; height:9; background-image: url(/more/bottom.png);}
+
+.buttons a {color: #999999;background-color: #1D1D1D;padding: 1px;padding-left: 3px;display: block;border-left: 10px solid #3F4343;border-right: 10px solid #3F4343;font: 10px Verdana;text-decoration: none;text-align: left;margin-top: 1px;}
+
+#casinos{		
+	position: absolute;
+	position: fixed;
+	bottom: 0px;
+
+width:100%;
+align:center;
+
+
+
+	 /* old browsers */
+	
+
+	
+	
+	
+}
+
+#melt{	text-align: left;	
+	position: absolute;
+	position: fixed;
+	top: 5px;
+	right: 10px;
+	overflow: hidden;
+cellpadding:3;
+
+	background: #222; /* old browsers */
+	
+
+	
+	
+	
+}
+
+
+.wtf {color: #666666;background-color: #222222;border-left: 10px solid #3F4343;font: 10px Verdana;text-decoration: none;text-align: left;}
+.wtfs {color: #666666;background-color: #222222;font: 10px Verdana;text-decoration: none;}
+.wtfyou {color: #666666;background-color: #222222;border-left: 10px solid khaki;font: 10px Verdana;text-decoration: none;}
+
+
+.TS  {color: #555555;background-color: #555555;padding: 1px;font: 4px Verdana;text-align: left;margin-top: 1px;}
+
+.buttons a:hover {border-left: 10px solid #E0FFC2;background-color: #1D1D1D;border-right: 10px solid #E0FFC2;text-decoration: none;color: E0FFC2;}
+
+.tab {color: white;background-color: #333333;padding: 2px;padding-left: 3px;display:block;font: 10px verdana;text-decoration: none;text-align: center;margin-top: 1px;}

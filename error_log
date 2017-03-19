@@ -1,0 +1,53 @@
+[20-Jul-2011 23:50:30] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/stepear/public_html/verify.php on line 5
+[21-Jul-2011 00:01:03] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mafiasoc_ts'@'localhost' (using password: YES) in /home/stepear/public_html/vercode.php on line 3
+[21-Jul-2011 00:11:30] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/stepear/public_html/dupebgkill.php on line 70
+[21-Jul-2011 00:12:19] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/stepear/public_html/mkill.php on line 71
+[21-Jul-2011 00:56:17] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mafiasoc_ts'@'localhost' (using password: YES) in /home/stepear/public_html/vercode1.php on line 2
+[21-Jul-2011 00:56:29] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mafiasoc_ts'@'localhost' (using password: YES) in /home/stepear/public_html/vercode1.php on line 2
+[21-Jul-2011 01:03:04] PHP Warning:  imagecreatefromjpeg(sec/2.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/stepear/public_html/vercode.php on line 53
+[21-Jul-2011 01:03:04] PHP Warning:  imagecolorallocate(): supplied argument is not a valid Image resource in /home/stepear/public_html/vercode.php on line 55
+[21-Jul-2011 01:03:04] PHP Warning:  imagestring(): supplied argument is not a valid Image resource in /home/stepear/public_html/vercode.php on line 58
+[21-Jul-2011 01:03:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stepear/public_html/vercode.php:53) in /home/stepear/public_html/vercode.php on line 69
+[21-Jul-2011 01:03:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stepear/public_html/vercode.php:53) in /home/stepear/public_html/vercode.php on line 72
+[21-Jul-2011 01:03:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stepear/public_html/vercode.php:53) in /home/stepear/public_html/vercode.php on line 75
+[21-Jul-2011 01:03:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stepear/public_html/vercode.php:53) in /home/stepear/public_html/vercode.php on line 76
+[21-Jul-2011 01:03:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stepear/public_html/vercode.php:53) in /home/stepear/public_html/vercode.php on line 79
+[21-Jul-2011 01:03:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stepear/public_html/vercode.php:53) in /home/stepear/public_html/vercode.php on line 82
+[21-Jul-2011 01:03:04] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/stepear/public_html/vercode.php on line 85
+[21-Jul-2011 01:03:04] PHP Warning:  imagedestroy(): supplied argument is not a valid Image resource in /home/stepear/public_html/vercode.php on line 88
+[21-Jul-2011 02:21:01] PHP Warning:  imagecreatefromjpeg(sec/1.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/stepear/public_html/vercode.php on line 53
+[21-Jul-2011 02:21:01] PHP Warning:  imagecolorallocate(): supplied argument is not a valid Image resource in /home/stepear/public_html/vercode.php on line 55
+[21-Jul-2011 02:21:01] PHP Warning:  imagestring(): supplied argument is not a valid Image resource in /home/stepear/public_html/vercode.php on line 58
+[21-Jul-2011 02:21:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stepear/public_html/vercode.php:53) in /home/stepear/public_html/vercode.php on line 69
+[21-Jul-2011 02:21:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stepear/public_html/vercode.php:53) in /home/stepear/public_html/vercode.php on line 72
+[21-Jul-2011 02:21:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stepear/public_html/vercode.php:53) in /home/stepear/public_html/vercode.php on line 75
+[21-Jul-2011 02:21:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stepear/public_html/vercode.php:53) in /home/stepear/public_html/vercode.php on line 76
+[21-Jul-2011 02:21:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stepear/public_html/vercode.php:53) in /home/stepear/public_html/vercode.php on line 79
+[21-Jul-2011 02:21:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stepear/public_html/vercode.php:53) in /home/stepear/public_html/vercode.php on line 82
+[21-Jul-2011 02:21:01] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/stepear/public_html/vercode.php on line 85
+[21-Jul-2011 02:21:01] PHP Warning:  imagedestroy(): supplied argument is not a valid Image resource in /home/stepear/public_html/vercode.php on line 88
+[21-Jul-2011 15:34:47] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/stepear/public_html/dupebgkill.php on line 70
+[21-Jul-2011 17:25:23] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/stepear/public_html/dupebgkill.php on line 70
+[21-Jul-2011 20:21:09] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/stepear/public_html/dupebgkill.php on line 70
+[18-Oct-2011 17:26:44] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'stepear_aza'@'localhost' (using password: YES) in /home2/jordanch/public_html/immaculate-gangsters.com/verify.php on line 5
+[18-Oct-2011 18:01:08] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/jordanch/public_html/immaculate-gangsters.com/dupebgkill.php on line 70
+[18-Oct-2011 18:30:50] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'stepear_aza'@'localhost' (using password: YES) in /home2/jordanch/public_html/immaculate-gangsters.com/vercode1.php on line 2
+[18-Oct-2011 18:30:59] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'stepear_aza'@'localhost' (using password: YES) in /home2/jordanch/public_html/immaculate-gangsters.com/vercode1.php on line 2
+[18-Oct-2011 18:32:27] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'stepear_aza'@'localhost' (using password: YES) in /home2/jordanch/public_html/immaculate-gangsters.com/vercode.php on line 3
+[18-Oct-2011 18:32:34] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'stepear_aza'@'localhost' (using password: YES) in /home2/jordanch/public_html/immaculate-gangsters.com/vercode.php on line 3
+[26-Oct-2011 17:06:56] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'jordanch_t'@'localhost' (using password: YES) in /home/avalaunc/public_html/mafiansociety.co.cc/verify.php on line 5
+[26-Oct-2011 18:49:01] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/avalaunc/public_html/mafiansociety.co.cc/mkill.php on line 71
+[26-Oct-2011 18:50:22] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/avalaunc/public_html/mafiansociety.co.cc/mkill.php on line 71
+[26-Oct-2011 18:51:35] PHP Parse error:  syntax error, unexpected T_ELSE in /home/avalaunc/public_html/mafiansociety.co.cc/mkill.php on line 69
+[26-Oct-2011 18:52:00] PHP Parse error:  syntax error, unexpected T_ELSE in /home/avalaunc/public_html/mafiansociety.co.cc/mkill.php on line 69
+[26-Oct-2011 18:52:18] PHP Parse error:  syntax error, unexpected '}' in /home/avalaunc/public_html/mafiansociety.co.cc/mkill.php on line 149
+[26-Oct-2011 18:53:51] PHP Parse error:  syntax error, unexpected $end in /home/avalaunc/public_html/mafiansociety.co.cc/mkill.php on line 186
+[26-Oct-2011 18:54:54] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/avalaunc/public_html/mafiansociety.co.cc/dupebgkill.php on line 70
+[27-Oct-2011 19:05:41] PHP Parse error:  syntax error, unexpected '<' in /home/avalaunc/public_html/mafiansociety.co.cc/promotemod.php on line 3
+[27-Oct-2011 19:06:08] PHP Parse error:  syntax error, unexpected '<' in /home/avalaunc/public_html/mafiansociety.co.cc/promotemod.php on line 3
+[27-Oct-2011 19:19:51] PHP Parse error:  syntax error, unexpected $end in /home/avalaunc/public_html/mafiansociety.co.cc/promotemod.php on line 113
+[27-Oct-2011 19:25:55] PHP Parse error:  syntax error, unexpected $end in /home/avalaunc/public_html/mafiansociety.co.cc/promotemod.php on line 113
+[27-Oct-2011 19:44:53] PHP Parse error:  syntax error, unexpected '}' in /home/avalaunc/public_html/mafiansociety.co.cc/demotemod.php on line 58
+[28-Oct-2011 09:29:45] PHP Parse error:  syntax error, unexpected '{' in /home/avalaunc/public_html/mafiansociety.co.cc/helpdesk.php on line 107
+[28-Oct-2011 09:30:05] PHP Parse error:  syntax error, unexpected '{' in /home/avalaunc/public_html/mafiansociety.co.cc/helpdesk.php on line 107
+[28-Oct-2011 09:30:15] PHP Parse error:  syntax error, unexpected '{' in /home/avalaunc/public_html/mafiansociety.co.cc/helpdesk.php on line 107
