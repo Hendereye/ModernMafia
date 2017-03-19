@@ -1,4 +1,4 @@
-<?include 'connecter.php'; 
+<?include 'includes/connection.php'; 
 die(' ');
 
 $geall = mysql_query("SELECT * FROM emails");

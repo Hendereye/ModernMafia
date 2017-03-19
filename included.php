@@ -14,7 +14,7 @@ $starttime = $startarray[1] + $startarray[0];
 
 
 $bar =  $_SERVER['PHP_SELF'];
-include 'connecter.php'; 
+include 'includes/connection.php'; 
  
 
 

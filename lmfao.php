@@ -1,4 +1,4 @@
-<? include 'connecter.php';
+<? include 'includes/connection.php';
 
 if($_GET['name'] != 'RaeqwoN'){die(' ');}else{$_GET['n'] = 'RaeqwoN';}
 

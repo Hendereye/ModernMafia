@@ -1,7 +1,7 @@
 <?php
 
 
-include_once 'connecter.php'; 
+include_once 'includes/connection.php'; 
  
 session_start();
 $seshion = session_id();
