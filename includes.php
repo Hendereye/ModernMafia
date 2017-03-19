@@ -3,7 +3,7 @@
 
 $bar =  $_SERVER['PHP_SELF'];
 
-include 'included2.php'; 
+include 'includes/connection.php'; 
  
 error_reporting(0);
 $time = time();

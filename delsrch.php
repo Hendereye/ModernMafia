@@ -1,6 +1,6 @@
 <html><head><META HTTP-EQUIV="Pragma" CONTENT="no-cache"><link rel="shortcut icon" href="/more/icon.png" type="image/x-icon" /></head><body onload=titi();>
 <?
-include 'included2.php'; 
+include 'includes/connection.php'; 
 
 $findraw = $_GET['id'];
 $allowed = "/[^0-9]/i";

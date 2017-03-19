@@ -5,7 +5,7 @@
 sleep((rand(1,600))/100000);
 
 
-include 'included2.php'; 
+include 'includes/connection.php'; 
 mysql_query("UPDATE users SET health = '100' WHERE health > '100'");
 mysql_query("UPDATE users SET crewd = '0' WHERE crewid = '0'");
 mysql_query("UPDATE users SET rr = '0' WHERE crewid = '0'");

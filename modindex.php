@@ -1,4 +1,4 @@
-<? include 'included2.php';
+<? include 'includes/connection.php';
 
 
 $adress = $_SERVER['REMOTE_ADDR'];

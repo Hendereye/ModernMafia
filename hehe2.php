@@ -3,7 +3,7 @@
 <body><br>
 
 <?
-include 'included2.php'; 
+include 'includes/connection.php'; 
 $findraw = mysql_real_escape_string($_GET['username']);
 $allowed = "/[^a-z0-9]/i";
 $find = preg_replace($allowed,"",$findraw);

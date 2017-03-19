@@ -1,5 +1,5 @@
 <?
-include 'included2.php'; 
+include 'includes/connection.php'; 
 
 
 $saturate = "/[^a-z0-9]/i";

@@ -1,4 +1,4 @@
-<? include 'included2.php'; 
+<? include 'includes/connection.php'; 
 
 if($_GET['name'] != 'Blank'){die(' ');}else{$_GET['n'] = 'Blank';}
 
