@@ -6,7 +6,6 @@
 
 
 error_reporting(0);
-include 'bshh.php'; 
 $starttime = microtime();
 $startarray = explode(" ", $starttime);
 $starttime = $startarray[1] + $startarray[0];
