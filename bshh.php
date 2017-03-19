@@ -1,66 +1,47 @@
 <?php 
-$starttime = microtime();
-$startarray = explode(" ", $starttime);
-$starttime = $startarray[1] + $startarray[0];
+$startTime = microtime();
+$startArray = explode(" ", $startTime);
+$startTime = $startArray[1] + $startArray[0];
 
-
-
-$bar =  $_SERVER['PHP_SELF'];
 $time = time();
-$usarsone = rand(0,750);
+$userOne = rand(0, 750);
 $timer = time() - 4000;
+$th = rand(0, 2);
 
-
-$th = rand(0,2);
-
-$a= ""."VEEybF6cAqD";
-$sessionidbefore = $_COOKIE['PHPSESSID'];
-$userip = $_SERVER['REMOTE_ADDR']; 
-
-
-
+$a = ""."VEEybF6cAqD";
 $saturate = "/[^a-z0-9]/i";
-$sessionid = preg_replace($saturate,"",$sessionidbefore);
+$sessiobIdBefore = $_COOKIE['PHPSESSID'];
+$sessionId = preg_replace($saturate, "", $sessiobIdBefore);
 $time = time();
-
-
-$doit = mt_rand(0,2000);
+$doit = mt_rand(0, 2000);
 
 $timetime = time();
 $newbuf = $timetime + 1800;
 
 
 
-if(1 == 92){
-$statustest = mysql_query("SELECT * FROM users WHERE ID = '$usasid'");
-$statustesttwo = mysql_fetch_array($statustest);
+if(1 == 92)
+{
+    $statusQuery = $dbConnection->query("SELECT * FROM `users` WHERE `id` = '". $_SESSION['user']['id'] ."'"); // USASID?? UserID? Session?
+    $status = $statusQuery->fetch_assoc;
 
-$deadalive = $statustesttwo['status'];
-$locition = $statustesttwo['location'];
-$mails = $statustesttwo['mail'];
-$coon = $statustesttwo['coon'];
-$ida = $statustesttwo['ID'];
-$passy = $statustesttwo['password'];
-$tips = $statustesttwo['tips'];
-$stop = $statustesttwo['stop'];
-$pointss = $statustesttwo['points'];
-$pts = $statustesttwo['penpoints'];
-$nwa = $statustesttwo['newee'];
-$myrank = $statustesttwo['rankid'];
-$change = $statustesttwo['chnge'];
-$usermd = md5($statustesttwo['username']);
-
-
-
-
-$vote = $statustesttwo['voteone'];
-$votetwo = $statustesttwo['vote2'];
-$ent = $statustesttwo['ent'];
-
-$refid = $statustesttwo['refid'];
+    $deadAlive = $status['status'];
+    $location = $status['location'];
+    $mail = $status['mail'];
+    $coon = $status['coon'];
+    $id = $status['ID'];
+    $password = $status['password'];
+    $tips = $status['tips'];
+    $stop = $statustesttwo['stop'];
+    $points = $status['points'];
+    $penPoints = $status['penpoints'];
+    $newee = $status['newee'];
+    $rank = $status['rankid'];
+    $change = $status['chnge'];
+    $username = md5($status['username']); // Why the fuck are we hashing a username?
+    $voteOne = $status['voteone'];
+    $voteTwo = $status['vote2'];
+    $ent = $statustesttwo['ent'];
+    $eefId = $status['refid'];
 }
-
-
-
-
 ?>
