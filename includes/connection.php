@@ -1,9 +1,6 @@
-<?php 
+<?php
+include_once 'bshh.php';
+$dbConnection = mysqli_connect("localhost","root","LocalHost123!","mm");
 
-include_once 'bshh.php'; 
-
-$connection = mysqli_connect("localhost", "root", "offline") or die ('Error in Database Connection please contact us at Admin@ModernMafia.co.uk');
-mysqli_select_db($connection, "TS");
-
-$alloks = 1; // tf is this
+if (mysqli_connect_errno()) { die("Failed to connect to MySQL: " . mysqli_connect_error()); }
 ?>
