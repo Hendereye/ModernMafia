@@ -1,4 +1,9 @@
-<?php 
+<?php declare(strict_types = 1);
+
+if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
+	$_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
+}
+
 include_once 'includes/connection.php'; 
 $loginTimeQuery = $dbConnection->query("SELECT * FROM `logintimes` WHERE `ip` = '". $_SERVER['REMOTE_ADDR'] ."' ORDER BY `time` DESC LIMIT 1");
 $loginTimeNum = $loginTimeQuery->num_rows;
