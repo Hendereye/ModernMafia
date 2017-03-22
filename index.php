@@ -1,10 +1,14 @@
-<?php declare(strict_types = 1);
+<?php
+// Modern Mafia :: created by Hender, cleaned up by Seriosk!
 
 if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
 	$_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
 }
 
+include_once 'includes/config.php';
+include_once 'includes/bshh.php';
 include_once 'includes/connection.php'; 
+
 $loginTimeQuery = $dbConnection->query("SELECT * FROM `logintimes` WHERE `ip` = '". $_SERVER['REMOTE_ADDR'] ."' ORDER BY `time` DESC LIMIT 1");
 $loginTimeNum = $loginTimeQuery->num_rows;
 $loginTimeFetch = $loginTimeQuery->fetch_assoc;
@@ -21,14 +25,7 @@ if(isset($_GET['fb']))
 	}
 }
 
-if(isset($_GET['n'])) 
-{ 
-	$hehe = 'passwordlog'; 
-} 
-else 
-	{ 
-		$hehe = 'usernamelog'; 
-	}
+$hehe = isset($_GET['n']) ? 'passwordlog' : 'usernamelog';
 ?>
 <!DOCTYPE html>
 <html>
